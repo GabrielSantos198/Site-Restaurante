@@ -1,0 +1,293 @@
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.hamburger{
+    display: block;
+    background: #000;
+    width: 30px;
+    height: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.hamburger:before, .hamburger:after{
+    background: #000;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transition: .5s;
+}
+
+
+.hamburger:before{
+    top: -10px;
+}
+
+
+.hamburger:after{
+    bottom: -10px;
+}
+
+
+header nav input{
+    display: none;
+}
+
+
+input:checked ~ label .hamburger{
+    transform: rotate(45deg);
+}
+
+
+input:checked ~ label .hamburger:before{
+    transform: rotate(90deg);
+    top: 0px;
+}
+
+
+input:checked ~ label .hamburger:after{
+    transform: rotate(90deg);
+    bottom: 0px;
+}
+
+
+header{
+    background-color: #FFFFE0;
+}
+
+
+header nav h1, header nav .menu{
+    line-height: 80px;
+}
+
+
+header nav .menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-top: -40px;
+}
+
+
+header nav h1{
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 15px;
+    letter-spacing: 8px;
+    font-family: Open Sans;
+}
+
+
+header nav ul{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFDEAD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25%;
+    position: fixed;
+    left: -100%;
+    transition: .4s;
+}
+
+
+#menu-hamburger:checked ~ ul{
+    left: 0;
+}
+
+header nav ul li{
+    padding-top: 40px;
+}
+
+
+header nav ul li a{
+    color: #000;
+    font-size: 30px;
+    font-family: ROBOTO;
+}
+
+
+header img{
+    margin-top: 30px;
+    width:100%;
+}
+
+
+main{
+    background-color: #FFFFE0;
+    padding-bottom: 50px;
+}
+
+
+main span p{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 4px;
+    color: #8D6100;
+}
+
+
+main h1{
+    text-align: center;
+    font-size: 30px;
+    max-width: 80%;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-family: ROBOTO;
+}
+
+
+main p{
+    text-align: center;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    line-height: 29px;
+    font-family: Raleway;
+    padding-bottom: 25px;
+}
+
+
+main article h5{
+    background-color: #8D6100;
+    text-align: center;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+
+main article h5 a{
+    color: #fff;
+    font-size: 15px;
+}
+
+
+main article  img{
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+main .reservas h1{
+    letter-spacing: 6px;
+    padding-bottom: 40px;
+}
+
+
+main .reservas form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main .reservas form select{
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    background-color: #FFFFE0;
+    font-size: 17px;
+}
+
+
+
+
+main .reservas form input{
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    width: 100%;
+    background-color: #FFFFE0;
+    font-size: 17px;
+}
+
+
+main .reservas form .enviar{
+    background-color: #8D6100;
+    border: none;
+    color: #fff;
+}
+
+
+
+footer{
+    background-color: #000;
+    width: 100%;
+}
+
+
+
+footer .icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+footer .icons a{
+    color: #fff;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+footer .info h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: ROBOTO;
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+
+
+footer .info p{
+    color:#fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+footer .info hr{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer .info #ui{
+    padding-top: 40px;
+}
+
+
+footer .info #si{
+    padding-bottom: 40px;
+}
+
+
+footer .info #u{
+    padding-bottom: 10px;
+}
+
