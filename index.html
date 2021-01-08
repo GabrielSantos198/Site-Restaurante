@@ -18,41 +18,64 @@
         <header>
             <nav>
                 <h1>LAWRENSE</h1>
-                <input id="menu-hamburger" type="checkbox">
+                <section class="navbar-mobile">
+                    <input id="menu-hamburger" type="checkbox">
 
-                <label for="menu-hamburger">
-                    <article class="menu">
-                        <span class="hamburger"></span>
-                    </article>
-                </label>
+                    <label for="menu-hamburger">
+                        <article class="menu">
+                            <span class="hamburger"></span>
+                        </article>
+                    </label>
 
-                <ul>
-                    <li><a href="#reservation" target="_blank">Reservation</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                    <ul>
+                        <li><a href="#reservation" target="_blank">Reservation</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </section>
+
+                <!-- Navbar PC -->
+                <section class="navbar-pc">
+                    <a href="#reservation">Reservation</a>
+                    <a href="#">Menu</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </section>
+                <!-- Fim -->
             </nav>
             <img src="Imagens/banner_principal.jpg" alt="banner principal do site">
         </header>
 
         <main>
             <span><p>Restaurante & Bar</p></span>
-            <h1>Made With Love. Simply Delicious</h1>
-            <p>Lorem ipsum dolor sit amet, consectwetur adipiscing elit. Nunc mauris nibh, ullamcorper vitae dapibus sed, consectetur id tellus. Vestibulum dignissim accumsan nunc, vitae commodo sem maximus non. In hac habitasse.</p>
+            <section class="organizar">
 
-            <article>
-                <h5><a href="#">View Menu</a></h5>
-                <img src="Imagens/foto1.jpg" alt="foto número 1">
-            </article>
-            
-            <h1>A Flesh and Seasonal Cuisine</h1>
-            <p>Lorem ipsum dolor sit amet, consectwetur adipiscing elit. Nunc mauris nibh, ullamcorper vitae dapibus sed, consectetur id tellus. Vestibulum dignissim accumsan nunc, vitae commodo sem maximus non. In hac habitasse.</p>
+                <section>
+                    <h1>Made With Love. Simply Delicious</h1>
+                    <p>Lorem ipsum dolor sit amet, consectwetur adipiscing elit. Nunc mauris nibh, ullamcorper vitae dapibus sed, consectetur id tellus. Vestibulum dignissim accumsan nunc, vitae commodo sem maximus non. In hac habitasse.</p>
+                    <h5><a href="#">View Menu</a></h5>
+                </section>
 
-            <article>
-                <h5><a href="#">About Lawrence</a></h5>
-                <img src="Imagens/foto2.jpg" alt="foto número 2">
-            </article>
+                <article>
+                    <img src="Imagens/foto1.jpg" alt="foto número 1">
+                </article>
+
+            </section>
+
+            <section class="organizar">
+
+                <section>
+                    <h1>A Flesh and Seasonal Cuisine</h1>
+                    <p>Lorem ipsum dolor sit amet, consectwetur adipiscing elit. Nunc mauris nibh, ullamcorper vitae dapibus sed, consectetur id tellus. Vestibulum dignissim accumsan nunc, vitae commodo sem maximus non. In hac habitasse.</p>
+                    <h5><a href="#">About Lawrence</a></h5>
+                </section>
+
+                <article>
+                    <img src="Imagens/foto2.jpg" alt="foto número 2">
+                </article>
+
+            </section>
 
             <section class="reservas">
                <h1 id="reservation">Reservations</h1>
@@ -146,17 +169,26 @@
             </section>
 
             <section class="info">
-                <h1>Address</h1>
-                <p>500 Terry Francois Street</p>
-                <p>San Francisco , Ca 94158</p>
+                <section class="sub-info">
+                <section>
+                    <h1>Address</h1>
+                    <p>500 Terry Francois Street</p>
+                    <p>San Francisco , Ca 94158</p>
+                </section>
 
-                <h1>Opening Hours</h1>
-                <p>Mon - Fri:11am - 10pm</p>
-                <p>Sat - Sun:11am - 12am</p>
+                <section>
+                    <h1>Opening Hours</h1>
+                    <p>Mon - Fri:11am - 10pm</p>
+                    <p>Sat - Sun:11am - 12am</p>
+                </section>
 
-                <h1>Contact  Us</h1>
-                <p>info@mysite.com</p>
-                <p id="si">123 456 6780</p>
+                <section>
+                    <h1>Contact  Us</h1>
+                    <p>info@mysite.com</p>
+                    <p id="si">123 456 6780</p>
+                </section>
+                </section>
+
                 <hr>
                 <p id="ui">©2022 Gabriel Santana</p>
                 <p id="u">Created with HTML and CSS</p>
