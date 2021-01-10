@@ -308,6 +308,7 @@ footer .info #u{
 
 
 
+
 /* Versão pra PC */
 
 @media (min-width:800px){
@@ -319,7 +320,7 @@ footer .info #u{
 
     header nav h1{
     font-size: 40px;
-    margin-left: 20px;
+    margin-left: 29px;
     letter-spacing: 13px;
     }
 
@@ -329,7 +330,7 @@ footer .info #u{
         display: flex;
         justify-content: flex-end;
         margin-top: -70px;
-        margin-right: 15px;
+        margin-right: 24px;
     }
 
 
@@ -398,8 +399,227 @@ footer .info #u{
         padding: 25px;
     }
 
+
+    /* Página  menu */
+
+    main .category{
+        width: 60vw !important;
+    }
+
+
+    main .category article{
+        width: 100%;
+        height: 17vh !important;
+        margin-bottom: 50px !important;
+    }
+
+
+    main .titulo{
+        font-size: 30px !important;
+    }
+
+
+    main .category article span h1 a{
+        font-size: 40px;
+    }
+
+    /* Fim */
+
+
+    /* Page Appetizers */
+
+    main .appetizers{
+        width: 70vw !important;
+    }
+
+    /* Fim */
+
 }
 
 
 /* Fim */
 
+
+
+
+/* Versão mobile horizontal */
+
+@media (max-width: 768px) and (orientation:landscape){
+
+    header nav ul{
+        margin-top: -15%;
+    }
+
+
+    header nav ul li{
+        padding: 9px;
+    }
+
+
+    header nav ul li:first-child{
+        margin-top: 50px;
+    }
+
+
+    /* Pagina Menu */
+    main .titulo{
+        font-size: 27px !important;
+    }
+     
+    main .category article{
+        width: 100%;
+        height: 39vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 39%;
+    }
+
+
+    /* fim */
+
+}
+
+
+
+/* Página Menu */
+
+main .titulo{
+    font-size: 20px;
+    text-align: center;
+    color: #8D6100;
+    margin-top: 30px;
+}
+
+main .category{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+main .category #appetizers{
+    background-image: url("Opções/imagem0.jpg");
+}
+
+
+main .category #Typical-German-dishes{
+    background-image: url("Opções/imagem1.jpg");
+}
+
+
+main .category #Special-meats{
+    background-image: url("Opções/imagem2.jpg");
+}
+
+
+main .category #barbecue{
+    background-image: url("Opções/imagem3.jpg");
+}
+
+
+main .category #Fish{
+    background-image: url("Opções/imagem4.jpg");
+}
+
+
+
+main .category #Meat{
+    background-image: url("Opções/imagem5.jpg");
+}
+
+
+main .category #Desserts{
+    background-image: url("Opções/imagem6.jpg");
+}
+
+
+
+main .category #Drinks{
+    background-image: url("Opções/imagem7.jpg");
+}
+
+
+main .category article{
+    margin-bottom: 25px;
+    width: 100%;
+    height: 19vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+main .category article span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17vh;
+    width: 100%;
+}
+
+
+main .category article span h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+main .category article span h1 a{
+    color: #fff;
+}
+
+/* Fim */
+
+
+
+/* Sub Appetizers */
+
+main .appetizers{
+    width: 90vw;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #000;
+}
+
+
+main .appetizers section article{
+    display: flex;
+    padding: 18px;
+    border-bottom: 1px solid #000;
+
+}
+
+
+main .appetizers section hr{
+    border: 1px solid #000;
+}
+
+
+main .appetizers section article span{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* Fim */
+
+
+/* Page Contact */
+
+main .reservas #contact{
+    padding-top: 45px;
+}
+
+
+
+main .reservas #contact textarea{
+    background-color: #FFFFE0;
+    border: 1px solid #000;
+    margin-bottom: 15px;
+}
+
+/* Fim */
