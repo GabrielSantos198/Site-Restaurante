@@ -444,7 +444,7 @@ footer .info #u{
 
 /* Versão mobile horizontal */
 
-@media (max-width: 768px) and (orientation:landscape){
+@media (orientation:landscape){
 
     header nav ul{
         margin-top: -15%;
