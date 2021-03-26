@@ -1,7 +1,7 @@
 <h2 align="center">Restaurant Site 🍔🍟</h2>
 
 <p align="center">
-<img height=250px src="https://res.cloudinary.com/degkn8uwg/image/upload/v1616722154/Pessoal-Meu/IMG-20210108-WA0003_p5egat.jpg" alt="Restaurante">
+<img width=280px src="https://res.cloudinary.com/degkn8uwg/image/upload/v1616742439/Pessoal-Meu/IMG_20210326_040453_vzmhah.jpg" alt="Restaurante">
 </p>
 
 Restaurant website fully aligned and adaptable for all screen sizes. The technologies used in its development were HTML and CSS. Click on the following link to access it
